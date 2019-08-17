@@ -1,0 +1,22 @@
+@import "mixins";
+@import "colors";
+
+// Google fonts
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:400,700&display=swap&subset=latin-ext");
+
+// Font Variables
+$body: "Roboto", sans-serif;
+$header: "Montserrat", sans-serif;
+
+// Styles
+body {
+  font-family: $body;
+  font-weight: 400;
+  color: $black;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: $body;
+}
