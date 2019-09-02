@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Menu from '../components/Menu'
 
 
 class BurgerMenu extends Component {
 
     state = {
         active: false,
+
     }
 
     handleClick = () => {
@@ -20,10 +22,11 @@ class BurgerMenu extends Component {
                 <div className="toggle_menu" onClick={this.handleClick}>
                     <span> x</span>
                 </div>
-                {this.state.active && <p>sadff</p>}
+                <div className="mobile_nav">
+                    {this.state.active && <Menu />}
+                </div>
             </>
         );
     }
 }
-
 export default BurgerMenu;

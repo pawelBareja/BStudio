@@ -48,6 +48,14 @@ nav .menu {
     display: block;
   }
 }
+
+
+  @media (min-width: 768px){
+    .mobile_nav {
+    display:none;
+  }
+}
+
 nav .menu .menu__item {
   position: relative;
   text-decoration: none;

@@ -17,7 +17,7 @@ nav {
   }
 
   .brand {
-    border: 1px solid red;
+    border: 1px solid green;
 
     img {
       margin: 10px;
@@ -36,7 +36,7 @@ nav {
     list-style-type: none;
     padding: 0 10px;
     border: 1px solid rgb(196, 199, 196);
-    background-color: green;
+    background-color: red;
 
     @media (max-width: 768px) {
       display: none;
@@ -47,6 +47,7 @@ nav {
         display: block;
       }
     }
+
 
     .menu__item {
       position: relative;

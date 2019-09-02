@@ -14,4 +14,4 @@ const ProductPage = ({ match }) => {
   );
 }
 
-export default ProductPage;
+export default ProductPage; 
